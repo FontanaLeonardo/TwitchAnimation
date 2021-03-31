@@ -1,0 +1,173 @@
+<html>
+    <head>
+        <!-- CSS References -->
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <!-- Loading bar -->
+        <link rel="stylesheet" type="text/css" href="dist/loading-bar.css"/>
+        <!-- Bootstrap min online -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
+        <!-- Icon -->
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    
+    </head>
+    <body style="background-color: #333333;">
+        <div class="col-12">
+            <div class="row" style="height: 30px; background-color: #505050;">
+                <div class="col-4">
+                    <div class="row" style="width: 100%; color: rgb(212, 212, 212);">
+                        <div class="col-auto">
+                            File
+                        </div>
+                        <div class="col-auto">
+                            Stream
+                        </div>
+                        <div class="col-auto">
+                            Live
+                        </div>
+                        <div class="col-auto">
+                            Discord
+                        </div>
+                        <div class="col-auto">
+                            Twitter
+                        </div>
+                        <div class="col-auto">
+                            Youtube
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6" style="text-align: center; color: rgb(212, 212, 212);">
+                    SpaghettiLeo
+                </div>
+                <div class="col-4" style="text-align: end; color: rgb(212, 212, 212);">
+                    <i class="fas fa-minus"></i>
+                    <i class="fas fa-close"></i>
+                </div>
+            </div>
+            <div class="row" style="height: 100vh">
+                <div class="col-auto" style="height: 100%; background-color: #4e4e4e;">
+                    <span style="font-size: large; color: rgb(212, 212, 212);"> &lt/&gt </span><br>
+                    <span style="font-size: large; color: rgb(212, 212, 212);"> \...\ </span><br>
+                    <span style="font-size: large; color: rgb(212, 212, 212);"> &lt/&gt </span>
+                </div>
+                <div class="col-2" style="height: 100vh; background-color: #313131;">
+                    <div class="row">
+                        <div class="col-10" style="text-align: start; color: rgb(201, 201, 201);">
+                            explorer
+                        </div>
+                        <div class="col-1" style="color: rgb(201, 201, 201)"">
+                            ...
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span style="color: white; font-size: 12px; font-weight: bold;"> > OPEN EDITORS </span>
+                        </div>
+                        <div class="col-12">
+                            <span id="closeWindow" style="color: white; font-size: 12px; font-weight: bold;"> > SPAGHETTILEO </span><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9" style="background-color: #131313">
+                    <div class="row" style="width: 100%; background-color: #252525;">
+                        <span style="color:  rgb(201, 201, 201); font-size: 12px;">SpaghettiLeo > twitch.tv/SpaghettiLeo > youtube.com/user/SpaghettiLeo > twitter.com/SpaghettiLeo </span>
+                    </div>
+                    <div class="row" style="background-color: #131313;">
+                        <div class="col-12 typewriter">
+                            <h7 class="text">streaming on: Twitch.tv</h7><br>
+                            <h7 class="text">channel name: SpaghettiLeo</h7><br>
+                            <h7 class="text">channel type: bad streamer, dead memes</h7><br>
+                            <h7 class="text">channel commands: !discord !twitter !youtube !brodino !mascherina</h7><br>
+                            <h7 class="text">livestream program:</h7><br>
+                            <h7 class="text">L: 1.45 - 6.00</h7><br>
+                            <h7 class="text">M: 1.45 - 6.00</h7><br>
+                            <h7 class="text">M: 1.45 - 6.00</h7><br>
+                            <h7 class="text">G: 1.45 - 6.00</h7><br>
+                            <h7 class="text">V: 1.45 - 6.00</h7><br>
+                            <h7 class="text">S: 1.45 - 6.00</h7><br>
+                            <h7 class="text">D: 1.45 - 6.00</h7><br>
+                            <h7 class="text">Loading channel...</h7>
+                            <div class="row" style="height: 100%; background-color: #131313; justify-content: center; align-items: center; text-align: center;">
+                                <div class="col-12">
+                                    <div class="row" style="justify-content: center; text-align: center; align-items: center;">
+                                        <div class="title">> 
+                                            <span class="title" id="title0">CARICAMENTO MEME</span>
+                                            <span class="title" id="title1" style="display: none;">CREAZIONE ROBOT</span>
+                                            <span class="title" id="title2" style="display: none;">SALVATAGGIO LIVE</span>
+                                            <span class="title" id="title3" style="display: none;">SETTAGGIO MICROFONO</span>
+                                            <span class="title" id="title4" style="display: none;">CREAZIONE EMOTES</span>
+                                            <span class="title" id="title5" style="display: none;">SMALTIMENTO DISCORD</span>
+                                        </div>
+                                    </div>
+                                    <div class="row" style="background-color: #131313; justify-content: center; align-items: center; text-align: center;">
+                                        <div class="loadingContainer" id="loadingContainer" style="width: 100%; height: 100%;">
+                                    </div>
+                                </div>      
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 </div>
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <!-- Jquery -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <!-- Loading bar -->
+        <script type="text/javascript" src="dist/loading-bar.js"></script>
+
+        <!-- Bootstrap & JQuery online -->
+       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+        <script type="text/javascript">
+            
+            var bar1 = new ldBar("#loadingContainer");
+            var timer = setInterval(addLoading, 2000);
+            var titleTimer = setInterval(titleChange, 5000);
+            var progress = 0;
+            var title = 0;
+
+            function addLoading(){
+                progress = progress + 1;
+                bar1.set(progress);
+            }
+
+            function titleChange(){
+                switch(title){
+                    case 0:
+                        $("#title0").fadeOut(1000);
+                        $("#title1").delay(1000).fadeIn(1000);
+                        title = title + 1;
+                        break;
+                    case 1:
+                        $("#title1").fadeOut(1000);
+                        $("#title2").delay(1000).fadeIn(1000);
+                        title = title + 1;
+                        break;
+                    case 2:
+                        $("#title2").fadeOut(1000);
+                        $("#title3").delay(1000).fadeIn(1000);
+                        title = title + 1;
+                        break;
+                    case 3:
+                        $("#title3").fadeOut(1000);
+                        $("#title4").delay(1000).fadeIn(1000);
+                        title = title + 1;
+                        break;
+                    case 4:
+                        $("#title4").fadeOut(1000);
+                        $("#title5").delay(1000).fadeIn(1000);
+                        title = title + 1;
+                        break;
+                    case 5:
+                        $("#title5").fadeOut(1000);
+                        $("#title0").delay(1000).fadeIn(1000);
+                        title = 0;
+                        break;
+                }
+            }
+
+        </script>
+    </body>
+</html>
